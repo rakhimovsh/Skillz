@@ -1,0 +1,34 @@
+.site-header {
+  background: #1c1c33 !important;
+
+  &__top {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #57d9a6;
+    & p {
+      text-align: center;
+      margin: 0;
+    }
+  }
+  &__navbar {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    background-color: inherit !important;
+  }
+}
+
+@media only screen and (max-width: 461px) {
+  .site-header {
+    &__top {
+      padding-top: 4px;
+      padding-bottom: 4px;
+      & p {
+        font-size: 10px;
+      }
+    }
+    &__navbar {
+      padding-top: 15px !important;
+      padding-bottom: 15px !important;
+    }
+  }
+}

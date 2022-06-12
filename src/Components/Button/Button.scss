@@ -1,0 +1,15 @@
+.site-btn {
+  padding: 16px 24px;
+  background: #57d9a6;
+  border-radius: 4px;
+  border: 1px solid transparent;
+
+  &:hover {
+    opacity: 0.7;
+  }
+  &:active {
+    border: 1px solid #57d9a6;
+    background-color: transparent;
+    color: #57d9a6;
+  }
+}
